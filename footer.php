@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
+<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', '_s' ) ); ?>">
 				<?php
@@ -22,7 +22,7 @@
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', '_s' ), '_s', '<a href="https://automattic.com/">Automattic</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', '_s' ), 'MattPress Starter', '<a href="http://www.mattpress.org/">Matt Christensen</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
